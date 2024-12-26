@@ -1,0 +1,21 @@
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .modal.right.show .modal-dialog {
+    transform: translateX(0);
+  }

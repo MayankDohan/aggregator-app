@@ -1,0 +1,30 @@
+.addressStyle{
+    gap:10px;
+ 
+  border-bottom: 1px solid #EEE;
+  &:last-child{
+    border-bottom: none;
+  }
+  i{
+    color:blue;
+    font-size: 16px;
+  }
+  p{
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .servicesList{
+     
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  font-size: 14px;
+    display: -webkit-box; /* Use flexbox to control the number of lines displayed */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Limit to 2 lines (adjust as needed) */
+    line-clamp: 2;
+    white-space: normal; /* Allow text to wrap */
+    
+
+}
+}

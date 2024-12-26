@@ -1,0 +1,26 @@
+[
+    {
+       " src": "../assests/barspic.avif",
+        "caption": "Bars"
+    },
+    {
+        " src": "../assests/flooring.jfif",
+         "caption": "Flooring"
+     },
+     {
+        " src": "../assests/furniture.jfif",
+         "caption": "Furniture"
+     },
+     {
+        " src": "../assests/lights.jfif",
+         "caption": "Lights"
+     },
+     {
+        " src": "../assests/weddingoutdoor.jpg",
+         "caption": "Wedding"
+     },
+     {
+        " src": "../assests/tenting.jfif",
+         "caption": "Tenting"
+     }
+]

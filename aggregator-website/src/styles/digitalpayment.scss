@@ -1,0 +1,84 @@
+.custom-container-digital{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+
+.root-payment-container{
+    background-color: #ED7745;
+   width:100%;
+    border-radius: 6px;
+  
+  
+  
+
+    .custom-col-digital{
+        background-color: white;
+        row-gap: 5px;
+        .plans-button-style{
+            background-color:#ED7745;
+            display:inline-flex;
+              font-size: 12px;
+             text-align: center;
+             letter-spacing: -0.332px;
+             border-radius: 6px;
+           
+             justify-content: center;
+             align-items: center;
+              padding: 5px;
+              border: 1px solid #EEE;
+              padding-right: 12px;
+              padding-left: 15px;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              column-gap: 5px;
+             
+          
+              color:#EEE;
+           ;
+        }
+        .col-custom-digital{
+            border-right:  1px solid #EEE ;
+            border-width: 1px;
+        }
+        .col-2-custom-digital{
+            row-gap: 4px;
+           
+        }
+      
+    }
+}
+
+}
+.last-digital-style{
+    background-color: #e2e3e5; /* Lighter shade of gray */
+      background-image: linear-gradient(180deg, #e9ecef, #dee2e6);
+      height:10px;
+      padding:0;
+        width:100%;
+       
+        
+    }
+    .offers-btn-style{
+        background-color:white;
+      display:inline-flex;
+        font-size: 12px;
+    
+       letter-spacing: -0.332px;
+       border-radius: 6px;
+     
+       justify-content: center;
+       align-items: center;
+        padding-right: 12px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid #EEE;
+        color:#000000;
+        column-gap: 5px;
+       
+    }
+    
+        

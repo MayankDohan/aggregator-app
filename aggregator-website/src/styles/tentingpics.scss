@@ -1,0 +1,13 @@
+.tenting-pic-images{
+    width:100%;
+    
+    object-fit: contain;
+    max-height:100px;
+}
+.span-tenting-text{
+    display:inline-block;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

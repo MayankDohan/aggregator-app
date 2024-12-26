@@ -1,0 +1,40 @@
+
+.hoverDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor:pointer;
+    }
+    .categoryIcon{
+        height:50px;
+        width:50px;
+       
+    }
+    .spanTextMobile{
+    display:inline-block;
+        font-size:11px;
+        padding-top: 5px;
+        font-weight: 490;
+        &:active,&:hover,&:visited,&:focus,&:link{
+            text-decoration: none;
+            color:#212529
+        }
+       
+    }
+
+}
+.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;}
+
+@media screen and (max-width:600px){
+    .spanTextMobile{
+       display:inline-block;
+       max-width:100%;
+       overflow-x: hidden;
+       white-space: nowrap;
+       text-overflow:ellipsis;
+
+           
+        }
+}

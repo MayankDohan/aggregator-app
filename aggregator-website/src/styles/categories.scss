@@ -1,0 +1,29 @@
+.custom-column-styles{
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    &.first-column {
+        border-left: none;
+      }
+    
+      &.last-column {
+        border-right: none;
+      }
+   
+}
+
+
+@media only screen and (max-width: 400px) {
+  .custom-container-services{
+ margin-bottom: 20px;
+
+  }
+}
+@media screen and (min-width:768px){
+  .custom-container-services{
+   
+    margin-bottom: 20px;
+   
+     }
+}

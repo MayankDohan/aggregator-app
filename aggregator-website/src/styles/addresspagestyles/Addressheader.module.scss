@@ -1,0 +1,22 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+   
+    background-color: white;
+    border-bottom: 1px solid #EEE;
+    border-width: 1px;
+    li{
+        cursor:pointer;
+        font-size: 16px;
+        color:#000000;
+        font-weight: bold;
+        span{
+            display:inline-block;
+            font-size: 16px;
+            color:#000000;
+        }
+    }
+}

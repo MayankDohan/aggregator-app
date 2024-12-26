@@ -1,0 +1,29 @@
+.ServicesContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    .headings{
+        width:70%;
+      
+   
+        h5{
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+           // display:-webkit-box;
+           // -webkit-line-clamp: 3;
+           // line-clamp: 3;  /* Number of lines to display */
+           // -webkit-box-orient: vertical;
+           // overflow: hidden;
+            //text-overflow: ellipsis;
+        }
+    }
+    h2{
+        font-size: 14px;
+    }
+    .Price{
+        
+    }
+}

@@ -1,0 +1,24 @@
+.custom-cntainer-search{
+    margin-top: 55px;
+}
+
+.input-form{
+    outline:none;
+   border-top-color: #dee2e6 ;
+    &:focus,&:hover{
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .custom-cntainer-nav-search{
+        display:none;
+      
+    }
+    
+}
+
+
+

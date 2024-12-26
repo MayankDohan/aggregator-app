@@ -1,0 +1,30 @@
+.nav-links{
+    color:#878787;
+    font-size: 12px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    &:active,&:hover,&:visited,&:focus,&:link{
+        text-decoration: none;
+        color:#878787;
+    }
+    .svg-links{
+        height: 7px;
+        width : 15px;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        vertical-align:middle;
+        .path-fill{
+            fill: #878787;
+        
+        }
+      
+    }
+}
+
+@media screen and (min-width:768px){
+    .product-container{
+       
+    }
+}
+

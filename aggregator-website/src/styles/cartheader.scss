@@ -1,0 +1,15 @@
+.header-shopping-cart{
+    top:0;
+    left:0;
+    width:100%;
+    position:fixed;
+    background-color: white;
+    border-bottom: 1px solid #EEE;
+    border-width: 1px;
+    li{
+        cursor:pointer;
+    }
+    li:hover{
+        cursor:pointer
+    }
+}

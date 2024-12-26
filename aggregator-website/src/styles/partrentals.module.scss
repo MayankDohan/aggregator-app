@@ -1,0 +1,50 @@
+.rootHeading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    span{
+        display:block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+}
+.bannerImage{
+    width:300px;
+ max-width:300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+   
+ 
+    .imgStyle{
+        width:100%;
+        height:auto;
+        object-fit: contain;
+      
+    }
+}
+.contentP{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    p{
+       display:block;
+       font-size: 16px;
+    }
+}
+.bottomImage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+    .imgStyle{
+       width:100%;
+      height:auto;
+       object-fit: cover;
+
+    }
+}

@@ -1,0 +1,16 @@
+.chairs-pic-images{
+    width:100%;
+    object-fit: contain;
+    max-height:100px;
+  //  mix-blend-mode: color-burn;
+}
+.span-chairs-text{
+    display:inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+    
+   
+}

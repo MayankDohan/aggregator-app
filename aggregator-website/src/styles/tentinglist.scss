@@ -1,0 +1,11 @@
+.custom-column-tentingpics{
+    border: 1px solid #EEE;
+    border-width: 1px ;
+}
+
+.link-hyper-style{
+    &:visited,&:hover,&:active,&:focus,&:link{
+        text-decoration: none;
+        color:#212529;
+    }
+}

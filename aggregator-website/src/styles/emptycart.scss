@@ -1,0 +1,25 @@
+.custom-container-empty-cart{
+    flex-grow: 1;
+    .empty-cart-symbol{
+        width:90px;
+        height:88px;
+        background-color: #e2e3e5; /* Lighter shade of gray */
+        background-image: linear-gradient(180deg, #e9ecef, #dee2e6);
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        
+    }
+    button{
+        background-color: white ;
+        color:#ED7745;
+        border: 1px solid #ED7745;
+        border-radius: 5%;
+        
+        font-size: 14px;
+       font-style:bold;
+    }
+   
+}

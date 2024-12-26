@@ -1,0 +1,22 @@
+.divContainer{
+    position:relative;
+    width:150px;
+    select{
+       padding-left: 50px;
+    }
+    .spanElement{
+        position:absolute;
+        top:9px;
+        left:10px;
+        display:inline-block;
+        font-size: 12px;
+        letter-spacing: 0px;
+        padding:2px;
+        line-height: 1;
+        pointer-events: none;
+        vertical-align: middle;
+       
+        
+    }
+
+}
